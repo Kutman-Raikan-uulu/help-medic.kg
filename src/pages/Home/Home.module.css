@@ -1,0 +1,40 @@
+.Home .Home__header {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../../assets/images/header.jpg);
+  background-size: cover;
+  color: white;
+}
+
+.Home .Home__header header {
+  width: 100%;
+  max-width: 440px;
+}
+
+.Home section h2 {
+  margin: 50px 0;
+}
+
+.Home .Home__necessity .Home__necessity_list,
+.Home .Home__target .Home__target_list {
+  display: flex;
+  justify-content: center;
+}
+
+.Home .Home__necessity .Home__necessity_list article,
+.Home .Home__target .Home__target_list article {
+  width: 360px;
+  margin: 0 25px;
+}
+
+.Home .Home__necessity .Home__necessity_list article img {
+  max-height: 240px;
+}
+
+.Home .Home__target .Home__target_list article img {
+  width: 100px;
+  max-height: 100px;
+}
