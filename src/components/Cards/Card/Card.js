@@ -15,7 +15,9 @@ function Card(props) {
         дата объявления: <span></span>
         <span></span>
       </p>
-      <button>узнать больше</button>
+      <div className={classes.Card__button}>
+        <button>узнать больше</button>
+      </div>
     </div>
   );
 }

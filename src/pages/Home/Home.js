@@ -53,7 +53,7 @@ function Home(props) {
             <h2>объявление необходимых продуктов</h2>
           </header>
           <div></div>
-          <div>
+          <div className={classes.Home_buttons}>
             <button>Все</button>
             <button>Лекарства</button>
             <button>С.И.З.</button>

@@ -1,0 +1,14 @@
+.Cards {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1110px;
+  justify-content: space-between;
+  margin: auto 180px;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 900px) {
+  .Cards {
+    justify-content: center;
+    margin: 0;
+  }
+}
